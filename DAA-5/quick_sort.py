@@ -50,7 +50,7 @@ class QuickSort:
 
 while True:
     print("Press Ctrl+C to exit...")
-    array = [int(i) for i in input("Enter array").split(" ")]
+    array = [int(i) for i in input("Enter array : ").split(" ")]
     print("Deterministic variant of sort")
     sort1 = QuickSort(array)
     sort1.sort_d(0,len(array)-1)
