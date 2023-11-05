@@ -1,3 +1,6 @@
+# 3. Write a program to solve a fractional Knapsack problem using a greedy method.
+
+
 def knapsack(values,weights,capacity):
     dp = [[0 for i in range(capacity+1)] for j in range(len(values)+1)]
 
